@@ -15,6 +15,14 @@ public class Main {
         public int getId() {
             return id;
         }
+
+        // Abstract method to be implemented by subclasses
+        public abstract double calculateSalary();
+
+        @Override
+        public String toString() {
+            return "Employee [name=" + name + ", id=" + id + ", salary=" + calculateSalary() + "]";
+        }
     }
         public static void main(String[] args) {
 
