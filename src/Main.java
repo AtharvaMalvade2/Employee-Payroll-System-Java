@@ -38,7 +38,12 @@ class FullTimeEmployee extends Employee {
         return monthlySalary;
     }
 }
+    class PartTimeEmployee extends Employee {
+        private int hoursWorked;
+        private double hourlyRate;
 
+
+    }
  public class Main {
         public static void main(String[] args) {
 
